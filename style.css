@@ -1,5 +1,5 @@
 * {
-    background-color: gray;
+    background-color: #596473;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,15 +26,17 @@ h1 {
 
 .countdown {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     margin-bottom: 40%;
+    border: 1px solid black;
+    font-family: 'Acme', sans-serif;
 }
 
 .day,
 .hour,
 .minute,
-.seconds {
+.second {
     font-size: 3rem;
 }
 
