@@ -1,5 +1,5 @@
 * {
-    background-color: #596473;
+    background-color: #E7A94B;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,6 +14,8 @@ h1 {
     font-size: 5rem;
     font-weight: bold;
     padding: 2rem;
+    color: #243042;
+    margin-top: 10%;
 }
 
 .coming-soon {
@@ -29,8 +31,9 @@ h1 {
     justify-content: space-evenly;
     text-align: center;
     margin-bottom: 0;
-    border: 1px solid black;
+    border: 0.25rem solid #243042;;
     font-family: 'Acme', sans-serif;
+    color: #3D4551;
 }
 
 .disclaimer {
@@ -39,12 +42,16 @@ h1 {
     font-weight: bold;
     display: flex;
     position: relative;
+    color: #243042;
 }
 
 p {
     padding: 1rem;
     font-size: 1.25rem;
     font-weight: bold;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    color: #3D4551;
 }
 
 .day,
