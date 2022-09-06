@@ -13,11 +13,11 @@ body {
 h1 {
     font-size: 5rem;
     font-weight: bold;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .coming-soon {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -28,18 +28,33 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    margin-bottom: 40%;
+    margin-bottom: 0;
     border: 1px solid black;
     font-family: 'Acme', sans-serif;
 }
 
+.disclaimer {
+    margin-bottom: 5%;
+    padding: 0;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+}
+
+p {
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
 .day,
 .hour,
-.minute,
-.second {
+.minute {
     font-size: 3rem;
 }
 
 .waiting {
     height: 50vh;
 }
+
+
