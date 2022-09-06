@@ -10,6 +10,32 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+/* nav bar */
+header {
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    border: 1px solid black;
+  }
+
+  nav {
+    margin: 0;
+    padding: 20px 0;
+  }
+
+  nav li {
+    color: #243042;
+    font-family: 'Acme', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-left: 10px;
+
+  }
+
+  /* countdown */
+
 h1 {
     font-size: 5rem;
     font-weight: bold;
